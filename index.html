@@ -9,29 +9,66 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="class">
       <div class="container">
         <div class="header__inner">
           <img src="images/logo.png" alt="MartPlace" class="header__logo" />
           <a href="#" class="header__btn">Become a Seller</a>
           <div class="header__nav">
-            <button class="header__nav-btn eader__nav-btn-1">
+            <button class="header__nav-btn header__nav-btn--1">
               <img class="header__nav-img" src="images/alarm.png" alt="" />
+              <span class="header__badge header__badge--1">25</span>
             </button>
-            <button class="header__nav-bt header__nav-btn-2">
+            <button class="header__nav-btn">
               <img class="header__nav-img" src="images/envelope.png" alt="" />
+              <span class="header__badge header__badge--2">6</span>
             </button>
-            <button class="header__nav-btn eader__nav-btn-3">
+            <button class="header__nav-btn">
               <img class="header__nav-img" src="images/cart.png" alt="" />
+              <span class="header__badge header__badge--3">2</span>
             </button>
           </div>
           <div class="header__user">
-            <img src="" alt="" class="header__user-img" width="50px" />
+            <img src="images/users/23.jpg" alt="" class="header__user-img" />
             <p class="header__user-name">Toafiq Hakim</p>
-            <p class="header_price">$20.43</p>
+            <p class="header__price">$20.43</p>
           </div>
         </div>
       </div>
     </header>
+    <div class="header__menu container">
+      <nav class="header__menu-nav">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Home</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">All production</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Wordpress</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Festures</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">pages</a>
+          </li>
+        </ul>
+      </nav>
+
+      <form action="#" class="search">
+        <input
+          type="text"
+          placeholder="Search product here..."
+          class="search__input"
+        />
+        <button class="search__btn">
+          <img src="images/search-button.png" alt="Search" />
+        </button>
+      </form>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
